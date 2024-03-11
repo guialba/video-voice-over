@@ -1,5 +1,6 @@
 # Arquivos de teste
 files/*
+!files/.gitkeep 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

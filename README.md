@@ -18,7 +18,8 @@ Ex.
 ```
 pip install -r requirements.txt
 ```
-4. Executar script "poc_voiceover.py" passando os parametros, working_dir, file, sample_size que correspondem ao diretório de trabalho, do arquivo de video que precisa estar no diretório de trabalho e do tamanho da amostra que será dublado, respectivamente.
+4. colocar o video de teste dentro da pasta files que será o diretório de trabalho.
+5. Executar script "poc_voiceover.py" passando os parametros, working_dir, file, sample_size que correspondem ao diretório de trabalho, do arquivo de video que precisa estar no diretório de trabalho e do tamanho da amostra que será dublado, respectivamente.
 Ex.
 ```
 python poc_voiceover.py --working_dir files/ --file case_ai.mp4 --sample_size 200
