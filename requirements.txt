@@ -1,0 +1,11 @@
+
+
+moviepy==1.0.3
+openai-whisper==20231117
+SpeechRecognition==3.10.1
+soundfile==0.12.1
+torch==2.2.1
+transformers==4.38.2
+datasets==2.18.0
+sentencepiece==0.2.0
+gTTS==2.5.1
