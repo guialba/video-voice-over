@@ -11,6 +11,20 @@ Protótipo de Dublagem de Vídeos PT-EN
     5. [Sincronizar áudios](#etapa_5)
 
 # Como Usar <a name="uso"></a>
+1. Após clonar o repositorio
+2. Inicializar um ambiente virtual na raiz do projeto
+3. instalar os pacotes do requirements.txt: 
+Ex.
+```
+pip install -r requirements.txt
+```
+4. Executar script "poc_voiceover.py" passando os parametros, working_dir, file, sample_size que correspondem ao diretório de trabalho, do arquivo de video que precisa estar no diretório de trabalho e do tamanho da amostra que será dublado, respectivamente.
+Ex.
+```
+python poc_voiceover.py --working_dir files/ --file case_ai.mp4 --sample_size 200
+```
+
+Nota: o script voiceover.py pode ser executado também, e foi uma tentativa de realizar a sintetização de fala através de um modelo do hugging face e sincronização do áudio e vídeo, mas a qualidade do video final ficou a baixo da apresentada pelo protótipo inicial que usa a vós do google tradutor na dublagem. Acredito que com mais tempo, talvez, seria possivel aprimorar a qualidade dessa abordagem. 
 
 # Documentação <a name="proposta"></a>
 ## Extrair o áudio de um arquivo de vídeo <a name="etapa_1"></a>
