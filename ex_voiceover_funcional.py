@@ -16,7 +16,7 @@ def tts(working_dir, text_file, audio_file='new_audio.wav'):
 
 
 def get_args():
-    parser = argparse.ArgumentParser(description="Auto-Dubbing")
+    parser = argparse.ArgumentParser(description="Dublagem Automática")
     parser.add_argument("--working_dir", metavar="working_dir", type=str, help="Diretorio de Trabalho")
     parser.add_argument("--file", metavar="file", type=str, help="Arquivo de Video")
     parser.add_argument("--sample_size", metavar="sample_size", type=int, help="Tamanho da amostra de video em segundos")
